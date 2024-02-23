@@ -5,21 +5,44 @@ body {
     min-height: 100vh;
     background: #0dad70;
     user-select: none;
-  }
-  
-  .container {
+}
+
+.container {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: linear-gradient(
-      325deg,
-      #03001e 0%,
-      #060488 30%,
-      #5be4e9 70%,
-      #fdeff9 100%
-    );
+    background: linear-gradient(325deg,
+            #03001e 0%,
+            #060488 30%,
+            #5be4e9 70%,
+            #fdeff9 100%);
     padding: 40px 60px;
-  }
+}
+
+h2 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.reset {
+    padding: 15px 20px;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reset:focus {
+    color: #330c05;
+    background-color: #660bdd;
+}
